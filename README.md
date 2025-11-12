@@ -1,11 +1,11 @@
 State Diagram
 <img width="548" height="459" alt="image" src="https://github.com/user-attachments/assets/de3710de-bcc5-4e47-9e2b-1dee8e2af9da" />
-+------------------------
-|      led          | TL | TS|
-|  Green   - Red    | 1  | 0 |
-|  Yellow  - Red    | 0  | 1 |
-|  Red     - Green  | 1  | 0 |
-|  Yellow  - Green  | 0  | 1 |
++----------------------------+\n
+|      led          | TL | TS|\n
+|  Green   - Red    | 1  | 0 |\n
+|  Yellow  - Red    | 0  | 1 |\n
+|  Red     - Green  | 1  | 0 |\n
+|  Yellow  - Green  | 0  | 1 |\n
 TL = 1 and TS = 0 in 14 cycles, FSM feedback ST=1 in on cycles to reset the timer -> next state
 TL = 0 and TS = 1 in 4 cycles, FSM feedback ST=1 in on cycles to reset the timer -> next state
 TL = 1 and TS = 0 in 14 cycles, FSM feedback ST=1 in on cycles to reset the timer -> next state
