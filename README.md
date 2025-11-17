@@ -10,7 +10,7 @@
 - TL = 0 and TS = 1 in 4 cycles, FSM feedback ST=1 in on one cycle to reset the timer -> next state
 - TL = 1 and TS = 0 in 14 cycles, FSM feedback ST=1 in on one cycle to reset the timer -> next state
 - TL = 0 and TS = 1 in 4 cycles,FSM feedback ST=1 in on one cycle to reset the timer -> next state
-- and continued:))))))
+- and to be continued :))))))
 
 ## 🧱 Top-Level Block Diagram
 
